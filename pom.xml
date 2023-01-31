@@ -6,12 +6,18 @@
 
     <groupId>ortos</groupId>
     <artifactId>workflow.management</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.001</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cnc-templates</module>
+    </modules>
 
 </project>
